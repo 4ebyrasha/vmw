@@ -1,0 +1,270 @@
+/*
+ * Decompiled with CFR 0.152.
+ * 
+ * Could not load the following classes:
+ *  net.minecraft.client.model.ModelBase
+ *  net.minecraft.client.model.ModelRenderer
+ *  net.minecraft.entity.Entity
+ */
+package com.vicmatskiv.mw.models;
+
+import net.minecraft.client.model.ModelBase;
+import net.minecraft.client.model.ModelRenderer;
+import net.minecraft.entity.Entity;
+
+public class VeprDustCover
+extends ModelBase {
+    ModelRenderer DustCover19;
+    ModelRenderer DustCover17;
+    ModelRenderer DustCover18;
+    ModelRenderer DustCover37;
+    ModelRenderer DustCover38;
+    ModelRenderer DustCover13;
+    ModelRenderer DustCover11;
+    ModelRenderer DustCover12;
+    ModelRenderer DustCover36;
+    ModelRenderer DustCover14;
+    ModelRenderer DustCover15;
+    ModelRenderer DustCover47;
+    ModelRenderer DustCover1;
+    ModelRenderer DustCover10;
+    ModelRenderer DustCover42;
+    ModelRenderer DustCover41;
+    ModelRenderer DustCover43;
+    ModelRenderer DustCover39;
+    ModelRenderer DustCover40;
+    ModelRenderer DustCover50;
+    ModelRenderer DustCover51;
+    ModelRenderer DustCover52;
+    ModelRenderer DustCover53;
+    ModelRenderer DustCover54;
+    ModelRenderer DustCover55;
+    ModelRenderer DustCover56;
+    ModelRenderer DustCover57;
+    ModelRenderer DustCover58;
+    ModelRenderer DustCover59;
+
+    public VeprDustCover() {
+        this.field_78090_t = 512;
+        this.field_78089_u = 256;
+        this.DustCover19 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover19.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 28);
+        this.DustCover19.func_78793_a(-0.2f, -12.0f, -24.5f);
+        this.DustCover19.func_78787_b(64, 32);
+        this.DustCover19.field_78809_i = true;
+        this.setRotation(this.DustCover19, 0.0f, 0.0f, 0.0f);
+        this.DustCover17 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover17.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 12);
+        this.DustCover17.func_78793_a(-3.8f, -12.0f, -9.5f);
+        this.DustCover17.func_78787_b(64, 32);
+        this.DustCover17.field_78809_i = true;
+        this.setRotation(this.DustCover17, 0.0f, 0.0f, 0.0f);
+        this.DustCover18 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover18.func_78789_a(0.0f, 0.0f, 0.0f, 4, 1, 1);
+        this.DustCover18.func_78793_a(-3.8f, -12.0f, 2.5f);
+        this.DustCover18.func_78787_b(64, 32);
+        this.DustCover18.field_78809_i = true;
+        this.setRotation(this.DustCover18, 0.0f, 0.0f, 0.0f);
+        this.DustCover37 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover37.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 9);
+        this.DustCover37.func_78793_a(-0.2f, -13.0f, -33.5f);
+        this.DustCover37.func_78787_b(64, 32);
+        this.DustCover37.field_78809_i = true;
+        this.setRotation(this.DustCover37, 0.0f, 0.0f, 0.0f);
+        this.DustCover38 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover38.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 9);
+        this.DustCover38.func_78793_a(-0.2f, -13.5f, -33.5f);
+        this.DustCover38.func_78787_b(64, 32);
+        this.DustCover38.field_78809_i = true;
+        this.setRotation(this.DustCover38, 0.0f, 0.0f, 0.0f);
+        this.DustCover13 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover13.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 2);
+        this.DustCover13.func_78793_a(-3.8f, -11.0f, -9.5f);
+        this.DustCover13.func_78787_b(64, 32);
+        this.DustCover13.field_78809_i = true;
+        this.setRotation(this.DustCover13, 2.193538f, 0.0f, 0.0f);
+        this.DustCover11 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover11.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 12);
+        this.DustCover11.func_78793_a(-3.8f, -13.5f, -22.1f);
+        this.DustCover11.func_78787_b(64, 32);
+        this.DustCover11.field_78809_i = true;
+        this.setRotation(this.DustCover11, 0.0f, 0.0f, 0.0f);
+        this.DustCover12 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover12.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 1);
+        this.DustCover12.func_78793_a(-3.8f, -13.5f, -10.1f);
+        this.DustCover12.func_78787_b(64, 32);
+        this.DustCover12.field_78809_i = true;
+        this.setRotation(this.DustCover12, -0.8922867f, 0.0f, 0.0f);
+        this.DustCover36 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover36.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 2);
+        this.DustCover36.func_78793_a(-0.2f, -13.5f, -24.5f);
+        this.DustCover36.func_78787_b(64, 32);
+        this.DustCover36.field_78809_i = true;
+        this.setRotation(this.DustCover36, -1.152537f, 0.0f, 0.0f);
+        this.DustCover14 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover14.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 13);
+        this.DustCover14.func_78793_a(-3.7f, -13.7f, -11.0f);
+        this.DustCover14.func_78787_b(64, 32);
+        this.DustCover14.field_78809_i = true;
+        this.setRotation(this.DustCover14, 0.0f, 0.0f, 0.0f);
+        this.DustCover15 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover15.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 11);
+        this.DustCover15.func_78793_a(-3.7f, -12.7f, -9.1f);
+        this.DustCover15.func_78787_b(64, 32);
+        this.DustCover15.field_78809_i = true;
+        this.setRotation(this.DustCover15, 0.0f, 0.0f, 0.0f);
+        this.DustCover47 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover47.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 1);
+        this.DustCover47.func_78793_a(-3.7f, -13.0f, -9.5f);
+        this.DustCover47.func_78787_b(64, 32);
+        this.DustCover47.field_78809_i = true;
+        this.setRotation(this.DustCover47, 0.0f, 0.0f, 0.0f);
+        this.DustCover1 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover1.func_78789_a(0.0f, 0.0f, 0.0f, 2, 1, 34);
+        this.DustCover1.func_78793_a(-2.5f, -15.8f, -33.5f);
+        this.DustCover1.func_78787_b(64, 32);
+        this.DustCover1.field_78809_i = true;
+        this.setRotation(this.DustCover1, 0.0f, 0.0f, 0.0f);
+        this.DustCover10 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover10.func_78789_a(0.0f, 0.0f, 0.0f, 2, 1, 12);
+        this.DustCover10.func_78793_a(-3.8f, -13.5f, -22.1f);
+        this.DustCover10.func_78787_b(64, 32);
+        this.DustCover10.field_78809_i = true;
+        this.setRotation(this.DustCover10, 0.0f, 0.0f, -1.07818f);
+        this.DustCover42 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover42.func_78789_a(0.0f, 0.0f, 0.0f, 2, 1, 5);
+        this.DustCover42.func_78793_a(-2.5f, -15.8f, 0.5f);
+        this.DustCover42.func_78787_b(64, 32);
+        this.DustCover42.field_78809_i = true;
+        this.setRotation(this.DustCover42, -0.9294653f, 0.0f, 0.0f);
+        this.DustCover41 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover41.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 4);
+        this.DustCover41.func_78793_a(-2.8f, -15.3f, 0.88f);
+        this.DustCover41.func_78787_b(64, 32);
+        this.DustCover41.field_78809_i = true;
+        this.setRotation(this.DustCover41, -0.9294653f, 0.0f, 0.0f);
+        this.DustCover43 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover43.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 4);
+        this.DustCover43.func_78793_a(-1.2f, -15.3f, 0.88f);
+        this.DustCover43.func_78787_b(64, 32);
+        this.DustCover43.field_78809_i = true;
+        this.setRotation(this.DustCover43, -0.9294653f, 0.0f, 0.0f);
+        this.DustCover39 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover39.func_78789_a(0.0f, 0.0f, 0.0f, 2, 2, 2);
+        this.DustCover39.func_78793_a(-1.3f, -13.5f, 2.2f);
+        this.DustCover39.func_78787_b(64, 32);
+        this.DustCover39.field_78809_i = true;
+        this.setRotation(this.DustCover39, -0.9294653f, 0.0f, 0.0f);
+        this.DustCover40 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover40.func_78789_a(0.0f, 0.0f, 0.0f, 2, 2, 2);
+        this.DustCover40.func_78793_a(-3.7f, -13.5f, 2.2f);
+        this.DustCover40.func_78787_b(64, 32);
+        this.DustCover40.field_78809_i = true;
+        this.setRotation(this.DustCover40, -0.9294653f, 0.0f, 0.0f);
+        this.DustCover50 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover50.func_78789_a(0.0f, 0.0f, 0.0f, 1, 2, 27);
+        this.DustCover50.func_78793_a(-0.3f, -13.7f, -25.1f);
+        this.DustCover50.func_78787_b(64, 32);
+        this.DustCover50.field_78809_i = true;
+        this.setRotation(this.DustCover50, 0.0f, 0.0f, 0.0f);
+        this.DustCover51 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover51.func_78789_a(0.2f, 0.0f, 0.0f, 2, 1, 11);
+        this.DustCover51.func_78793_a(-3.8f, -13.5f, -10.1f);
+        this.DustCover51.func_78787_b(64, 32);
+        this.DustCover51.field_78809_i = true;
+        this.setRotation(this.DustCover51, 0.0f, 0.0f, -1.07818f);
+        this.DustCover52 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover52.func_78789_a(0.0f, 0.0f, -0.2f, 1, 1, 1);
+        this.DustCover52.func_78793_a(-3.7f, -13.5f, 2.2f);
+        this.DustCover52.func_78787_b(64, 32);
+        this.DustCover52.field_78809_i = true;
+        this.setRotation(this.DustCover52, -0.9294653f, 0.0f, 0.0f);
+        this.DustCover53 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover53.func_78789_a(1.6f, 0.0f, 0.0f, 1, 1, 34);
+        this.DustCover53.func_78793_a(-3.8f, -13.5f, -33.5f);
+        this.DustCover53.func_78787_b(64, 32);
+        this.DustCover53.field_78809_i = true;
+        this.setRotation(this.DustCover53, 0.0f, 0.0f, -1.07818f);
+        this.DustCover54 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover54.func_78789_a(-2.0f, 0.0f, 0.0f, 2, 1, 9);
+        this.DustCover54.func_78793_a(0.8f, -13.5f, -33.5f);
+        this.DustCover54.func_78787_b(64, 32);
+        this.DustCover54.field_78809_i = true;
+        this.setRotation(this.DustCover54, 0.0f, 0.0f, 1.078177f);
+        this.DustCover55 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover55.func_78789_a(-2.2f, 0.0f, 0.0f, 2, 1, 26);
+        this.DustCover55.func_78793_a(0.8f, -13.5f, -25.1f);
+        this.DustCover55.func_78787_b(64, 32);
+        this.DustCover55.field_78809_i = true;
+        this.setRotation(this.DustCover55, 0.0f, 0.0f, 1.078177f);
+        this.DustCover56 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover56.func_78789_a(0.0f, 0.0f, -0.2f, 1, 1, 1);
+        this.DustCover56.func_78793_a(-0.3f, -13.5f, 2.2f);
+        this.DustCover56.func_78787_b(64, 32);
+        this.DustCover56.field_78809_i = true;
+        this.setRotation(this.DustCover56, -0.9294653f, 0.0f, 0.0f);
+        this.DustCover57 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover57.func_78789_a(-2.6f, 0.0f, 0.0f, 1, 1, 34);
+        this.DustCover57.func_78793_a(0.8f, -13.5f, -33.5f);
+        this.DustCover57.func_78787_b(64, 32);
+        this.DustCover57.field_78809_i = true;
+        this.setRotation(this.DustCover57, 0.0f, 0.0f, 1.078177f);
+        this.DustCover58 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover58.func_78789_a(0.2f, 0.0f, 0.0f, 1, 1, 1);
+        this.DustCover58.func_78793_a(-3.8f, -13.5f, 0.5f);
+        this.DustCover58.func_78787_b(64, 32);
+        this.DustCover58.field_78809_i = true;
+        this.setRotation(this.DustCover58, 0.0f, 0.0f, -1.07818f);
+        this.DustCover59 = new ModelRenderer((ModelBase)this, 100, 0);
+        this.DustCover59.func_78789_a(-1.2f, 0.0f, 0.0f, 1, 1, 1);
+        this.DustCover59.func_78793_a(0.8f, -13.5f, 0.5f);
+        this.DustCover59.func_78787_b(64, 32);
+        this.DustCover59.field_78809_i = true;
+        this.setRotation(this.DustCover59, 0.0f, 0.0f, 1.078177f);
+    }
+
+    public void func_78088_a(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
+        super.func_78088_a(entity, f, f1, f2, f3, f4, f5);
+        this.func_78087_a(f, f1, f2, f3, f4, f5, entity);
+        this.DustCover19.func_78785_a(f5);
+        this.DustCover17.func_78785_a(f5);
+        this.DustCover18.func_78785_a(f5);
+        this.DustCover37.func_78785_a(f5);
+        this.DustCover38.func_78785_a(f5);
+        this.DustCover13.func_78785_a(f5);
+        this.DustCover11.func_78785_a(f5);
+        this.DustCover12.func_78785_a(f5);
+        this.DustCover36.func_78785_a(f5);
+        this.DustCover14.func_78785_a(f5);
+        this.DustCover15.func_78785_a(f5);
+        this.DustCover47.func_78785_a(f5);
+        this.DustCover1.func_78785_a(f5);
+        this.DustCover10.func_78785_a(f5);
+        this.DustCover42.func_78785_a(f5);
+        this.DustCover41.func_78785_a(f5);
+        this.DustCover43.func_78785_a(f5);
+        this.DustCover39.func_78785_a(f5);
+        this.DustCover40.func_78785_a(f5);
+        this.DustCover50.func_78785_a(f5);
+        this.DustCover51.func_78785_a(f5);
+        this.DustCover52.func_78785_a(f5);
+        this.DustCover53.func_78785_a(f5);
+        this.DustCover54.func_78785_a(f5);
+        this.DustCover55.func_78785_a(f5);
+        this.DustCover56.func_78785_a(f5);
+        this.DustCover57.func_78785_a(f5);
+        this.DustCover58.func_78785_a(f5);
+        this.DustCover59.func_78785_a(f5);
+    }
+
+    private void setRotation(ModelRenderer model, float x, float y, float z) {
+        model.field_78795_f = x;
+        model.field_78796_g = y;
+        model.field_78808_h = z;
+    }
+
+    public void func_78087_a(float f, float f1, float f2, float f3, float f4, float f5, Entity entity) {
+        super.func_78087_a(f, f1, f2, f3, f4, f5, entity);
+    }
+}
+

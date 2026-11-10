@@ -1,0 +1,242 @@
+/*
+ * Decompiled with CFR 0.152.
+ * 
+ * Could not load the following classes:
+ *  net.minecraft.client.model.ModelBase
+ *  net.minecraft.client.model.ModelRenderer
+ *  net.minecraft.entity.Entity
+ */
+package com.vicmatskiv.mw.models;
+
+import net.minecraft.client.model.ModelBase;
+import net.minecraft.client.model.ModelRenderer;
+import net.minecraft.entity.Entity;
+
+public class SV98Mag
+extends ModelBase {
+    ModelRenderer Mag1;
+    ModelRenderer Mag3;
+    ModelRenderer Mag6;
+    ModelRenderer Mag9;
+    ModelRenderer Mag11;
+    ModelRenderer Mag12;
+    ModelRenderer Mag13;
+    ModelRenderer Mag14;
+    ModelRenderer Mag15;
+    ModelRenderer Mag16;
+    ModelRenderer Mag18;
+    ModelRenderer Mag20;
+    ModelRenderer Mag21;
+    ModelRenderer Mag22;
+    ModelRenderer Mag33;
+    ModelRenderer Mag34;
+    ModelRenderer Mag35;
+    ModelRenderer Mag36;
+    ModelRenderer Mag37;
+    ModelRenderer Mag38;
+    ModelRenderer Mag39;
+    ModelRenderer Mag40;
+    ModelRenderer Mag41;
+    ModelRenderer Mag42;
+    ModelRenderer Mag43;
+    ModelRenderer Mag44;
+
+    public SV98Mag() {
+        this.field_78090_t = 64;
+        this.field_78089_u = 32;
+        this.Mag1 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag1.func_78789_a(0.0f, 0.0f, 0.0f, 2, 1, 6);
+        this.Mag1.func_78793_a(1.5f, -7.3f, -7.0f);
+        this.Mag1.func_78787_b(64, 32);
+        this.Mag1.field_78809_i = true;
+        this.setRotation(this.Mag1, 1.673038f, 0.0f, 0.0f);
+        this.Mag3 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag3.func_78789_a(0.0f, 0.0f, 0.0f, 3, 2, 2);
+        this.Mag3.func_78793_a(1.0f, -9.0f, -6.5f);
+        this.Mag3.func_78787_b(64, 32);
+        this.Mag3.field_78809_i = true;
+        this.setRotation(this.Mag3, 0.0f, 0.0f, 0.0f);
+        this.Mag6 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag6.func_78789_a(0.0f, 0.0f, 0.0f, 2, 7, 1);
+        this.Mag6.func_78793_a(1.2f, -12.3f, 1.5f);
+        this.Mag6.func_78787_b(64, 32);
+        this.Mag6.field_78809_i = true;
+        this.setRotation(this.Mag6, -0.1115358f, 0.0f, 0.0f);
+        this.Mag9 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag9.func_78789_a(0.0f, 0.0f, 0.0f, 1, 7, 1);
+        this.Mag9.func_78793_a(2.8f, -12.3f, 1.5f);
+        this.Mag9.func_78787_b(64, 32);
+        this.Mag9.field_78809_i = true;
+        this.setRotation(this.Mag9, -0.1115358f, 0.0f, 0.0f);
+        this.Mag11 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag11.func_78789_a(0.0f, 0.0f, 0.0f, 3, 1, 1);
+        this.Mag11.func_78793_a(1.0f, -9.2f, -6.0f);
+        this.Mag11.func_78787_b(64, 32);
+        this.Mag11.field_78809_i = true;
+        this.setRotation(this.Mag11, 0.0f, 0.0f, 0.0f);
+        this.Mag12 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag12.func_78789_a(0.0f, 0.0f, 0.0f, 3, 1, 1);
+        this.Mag12.func_78793_a(1.0f, -7.8f, -6.0f);
+        this.Mag12.func_78787_b(64, 32);
+        this.Mag12.field_78809_i = true;
+        this.setRotation(this.Mag12, 0.0f, 0.0f, 0.0f);
+        this.Mag13 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag13.func_78789_a(0.0f, 0.0f, 0.0f, 3, 1, 1);
+        this.Mag13.func_78793_a(1.0f, -8.5f, -6.7f);
+        this.Mag13.func_78787_b(64, 32);
+        this.Mag13.field_78809_i = true;
+        this.setRotation(this.Mag13, 0.0f, 0.0f, 0.0f);
+        this.Mag14 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag14.func_78789_a(0.0f, 0.0f, 0.0f, 3, 1, 1);
+        this.Mag14.func_78793_a(1.0f, -8.5f, -5.3f);
+        this.Mag14.func_78787_b(64, 32);
+        this.Mag14.field_78809_i = true;
+        this.setRotation(this.Mag14, 0.0f, 0.0f, 0.0f);
+        this.Mag15 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag15.func_78789_a(0.0f, 0.0f, 0.0f, 2, 4, 1);
+        this.Mag15.func_78793_a(1.2f, -12.2f, -5.2f);
+        this.Mag15.func_78787_b(64, 32);
+        this.Mag15.field_78809_i = true;
+        this.setRotation(this.Mag15, -0.1115358f, 0.0f, 0.0f);
+        this.Mag16 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag16.func_78789_a(0.0f, 0.0f, 0.0f, 1, 5, 1);
+        this.Mag16.func_78793_a(2.8f, -13.2f, -5.1f);
+        this.Mag16.func_78787_b(64, 32);
+        this.Mag16.field_78809_i = true;
+        this.setRotation(this.Mag16, -0.1115358f, 0.0f, 0.0f);
+        this.Mag18 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag18.func_78789_a(0.0f, 0.0f, 0.0f, 2, 6, 4);
+        this.Mag18.func_78793_a(1.5f, -12.6f, -4.6f);
+        this.Mag18.func_78787_b(64, 32);
+        this.Mag18.field_78809_i = true;
+        this.setRotation(this.Mag18, -0.1115358f, 0.0f, 0.0f);
+        this.Mag20 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag20.func_78789_a(0.0f, 0.0f, 0.0f, 2, 1, 7);
+        this.Mag20.func_78793_a(1.2f, -13.1f, -4.5f);
+        this.Mag20.func_78787_b(64, 32);
+        this.Mag20.field_78809_i = true;
+        this.setRotation(this.Mag20, -0.1115358f, 0.0f, 0.0f);
+        this.Mag21 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag21.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 7);
+        this.Mag21.func_78793_a(2.8f, -13.1f, -4.5f);
+        this.Mag21.func_78787_b(64, 32);
+        this.Mag21.field_78809_i = true;
+        this.setRotation(this.Mag21, -0.1115358f, 0.0f, 0.0f);
+        this.Mag22 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag22.func_78789_a(0.0f, 0.0f, 0.0f, 2, 1, 7);
+        this.Mag22.func_78793_a(1.2f, -7.6f, -5.5f);
+        this.Mag22.func_78787_b(64, 32);
+        this.Mag22.field_78809_i = true;
+        this.setRotation(this.Mag22, -0.2230717f, 0.0f, 0.0f);
+        this.Mag33 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag33.func_78789_a(0.0f, 0.0f, 0.0f, 1, 3, 1);
+        this.Mag33.func_78793_a(1.4f, -12.3f, 1.5f);
+        this.Mag33.func_78787_b(64, 32);
+        this.Mag33.field_78809_i = true;
+        this.setRotation(this.Mag33, -0.4089647f, 0.0f, 0.0f);
+        this.Mag34 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag34.func_78789_a(0.0f, 0.0f, 0.0f, 2, 5, 1);
+        this.Mag34.func_78793_a(1.2f, -13.2f, -5.1f);
+        this.Mag34.func_78787_b(64, 32);
+        this.Mag34.field_78809_i = true;
+        this.setRotation(this.Mag34, -0.1115358f, 0.0f, 0.0f);
+        this.Mag35 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag35.func_78789_a(0.0f, 0.0f, 0.0f, 1, 2, 6);
+        this.Mag35.func_78793_a(1.7f, -7.3f, -7.0f);
+        this.Mag35.func_78787_b(64, 32);
+        this.Mag35.field_78809_i = true;
+        this.setRotation(this.Mag35, 1.561502f, 0.0f, 0.0f);
+        this.Mag36 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag36.func_78789_a(0.0f, 0.0f, 0.0f, 1, 2, 6);
+        this.Mag36.func_78793_a(2.3f, -7.3f, -7.0f);
+        this.Mag36.func_78787_b(64, 32);
+        this.Mag36.field_78809_i = true;
+        this.setRotation(this.Mag36, 1.561502f, 0.0f, 0.0f);
+        this.Mag37 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag37.func_78789_a(0.0f, 0.0f, 0.0f, 2, 1, 4);
+        this.Mag37.func_78793_a(1.5f, -13.3f, -8.0f);
+        this.Mag37.func_78787_b(64, 32);
+        this.Mag37.field_78809_i = true;
+        this.setRotation(this.Mag37, -0.0743572f, 0.0f, 0.0f);
+        this.Mag38 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag38.func_78789_a(0.0f, 0.0f, 0.0f, 1, 6, 4);
+        this.Mag38.func_78793_a(2.7f, -12.3f, -2.0f);
+        this.Mag38.func_78787_b(64, 32);
+        this.Mag38.field_78809_i = true;
+        this.setRotation(this.Mag38, -0.1115358f, 0.0f, 0.0f);
+        this.Mag39 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag39.func_78789_a(0.0f, 0.0f, 0.0f, 1, 6, 4);
+        this.Mag39.func_78793_a(1.3f, -12.3f, -2.0f);
+        this.Mag39.func_78787_b(64, 32);
+        this.Mag39.field_78809_i = true;
+        this.setRotation(this.Mag39, -0.1115358f, 0.0f, 0.0f);
+        this.Mag40 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag40.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 7);
+        this.Mag40.func_78793_a(2.8f, -7.6f, -5.5f);
+        this.Mag40.func_78787_b(64, 32);
+        this.Mag40.field_78809_i = true;
+        this.setRotation(this.Mag40, -0.2230717f, 0.0f, 0.0f);
+        this.Mag41 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag41.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 3);
+        this.Mag41.func_78793_a(2.6f, -11.3f, -4.5f);
+        this.Mag41.func_78787_b(64, 32);
+        this.Mag41.field_78809_i = true;
+        this.setRotation(this.Mag41, -0.1115358f, 0.0f, 0.0f);
+        this.Mag42 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag42.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 3);
+        this.Mag42.func_78793_a(1.4f, -11.3f, -4.5f);
+        this.Mag42.func_78787_b(64, 32);
+        this.Mag42.field_78809_i = true;
+        this.setRotation(this.Mag42, -0.1115358f, 0.0f, 0.0f);
+        this.Mag43 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag43.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 3);
+        this.Mag43.func_78793_a(2.6f, -9.8f, -4.6f);
+        this.Mag43.func_78787_b(64, 32);
+        this.Mag43.field_78809_i = true;
+        this.setRotation(this.Mag43, -0.2974289f, 0.0f, 0.0f);
+        this.Mag44 = new ModelRenderer((ModelBase)this, 0, 0);
+        this.Mag44.func_78789_a(0.0f, 0.0f, 0.0f, 1, 1, 3);
+        this.Mag44.func_78793_a(1.4f, -9.8f, -4.6f);
+        this.Mag44.func_78787_b(64, 32);
+        this.Mag44.field_78809_i = true;
+        this.setRotation(this.Mag44, -0.2974289f, 0.0f, 0.0f);
+    }
+
+    public void func_78088_a(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
+        super.func_78088_a(entity, f, f1, f2, f3, f4, f5);
+        this.func_78087_a(f, f1, f2, f3, f4, f5, entity);
+        this.Mag1.func_78785_a(f5);
+        this.Mag3.func_78785_a(f5);
+        this.Mag6.func_78785_a(f5);
+        this.Mag9.func_78785_a(f5);
+        this.Mag11.func_78785_a(f5);
+        this.Mag12.func_78785_a(f5);
+        this.Mag13.func_78785_a(f5);
+        this.Mag14.func_78785_a(f5);
+        this.Mag15.func_78785_a(f5);
+        this.Mag16.func_78785_a(f5);
+        this.Mag18.func_78785_a(f5);
+        this.Mag20.func_78785_a(f5);
+        this.Mag21.func_78785_a(f5);
+        this.Mag22.func_78785_a(f5);
+        this.Mag33.func_78785_a(f5);
+        this.Mag34.func_78785_a(f5);
+        this.Mag35.func_78785_a(f5);
+        this.Mag36.func_78785_a(f5);
+        this.Mag37.func_78785_a(f5);
+        this.Mag38.func_78785_a(f5);
+        this.Mag39.func_78785_a(f5);
+        this.Mag40.func_78785_a(f5);
+        this.Mag41.func_78785_a(f5);
+        this.Mag42.func_78785_a(f5);
+        this.Mag43.func_78785_a(f5);
+        this.Mag44.func_78785_a(f5);
+    }
+
+    private void setRotation(ModelRenderer model, float x, float y, float z) {
+        model.field_78795_f = x;
+        model.field_78796_g = y;
+        model.field_78808_h = z;
+    }
+}
+

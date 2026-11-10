@@ -1,0 +1,254 @@
+/*
+ * Decompiled with CFR 0.152.
+ * 
+ * Could not load the following classes:
+ *  net.minecraft.client.model.ModelBase
+ *  net.minecraft.client.model.ModelBox
+ *  net.minecraft.client.model.ModelRenderer
+ *  net.minecraft.entity.Entity
+ */
+package com.vicmatskiv.mw.models;
+
+import net.minecraft.client.model.ModelBase;
+import net.minecraft.client.model.ModelBox;
+import net.minecraft.client.model.ModelRenderer;
+import net.minecraft.entity.Entity;
+
+public class ACRPrecisionHandguard
+extends ModelBase {
+    private final ModelRenderer bone;
+    private final ModelRenderer handguard1;
+    private final ModelRenderer bone4;
+    private final ModelRenderer bone6;
+    private final ModelRenderer bone5;
+    private final ModelRenderer bone7;
+    private final ModelRenderer handguard17;
+    private final ModelRenderer bone2;
+    private final ModelRenderer handguard20;
+    private final ModelRenderer bone3;
+    private final ModelRenderer ACR110;
+    private final ModelRenderer bone8;
+    private final ModelRenderer ACR2;
+    private final ModelRenderer bone9;
+
+    public ACRPrecisionHandguard() {
+        this.field_78090_t = 256;
+        this.field_78089_u = 256;
+        this.bone = new ModelRenderer((ModelBase)this);
+        this.bone.func_78793_a(0.0f, 24.0f, 0.0f);
+        this.bone.field_78804_l.add(new ModelBox(this.bone, 0, 20, -1.3f, -42.2f, -68.0f, 1, 1, 19, 0.0f, false));
+        this.bone.field_78804_l.add(new ModelBox(this.bone, 0, 0, -2.7f, -42.2f, -68.0f, 2, 1, 19, 0.0f, false));
+        this.bone.field_78804_l.add(new ModelBox(this.bone, 0, 91, 0.3f, -39.4f, -67.0f, 1, 1, 44, 0.0f, false));
+        this.bone.field_78804_l.add(new ModelBox(this.bone, 49, 0, -4.3f, -39.4f, -67.0f, 1, 1, 44, 0.0f, false));
+        this.bone.field_78804_l.add(new ModelBox(this.bone, 46, 47, -4.3f, -37.1f, -67.0f, 1, 1, 44, 0.0f, false));
+        this.bone.field_78804_l.add(new ModelBox(this.bone, 0, 46, 0.3f, -37.1f, -67.0f, 1, 1, 44, 0.0f, false));
+        this.bone.field_78804_l.add(new ModelBox(this.bone, 0, 0, -2.5f, -35.3f, -68.0f, 2, 1, 45, 0.0f, false));
+        this.bone.field_78804_l.add(new ModelBox(this.bone, 0, 10, -2.51f, -34.8f, -67.0f, 2, 1, 6, 0.0f, false));
+        this.bone.field_78804_l.add(new ModelBox(this.bone, 21, 21, -3.0f, -35.8f, -29.0f, 3, 2, 5, 0.0f, false));
+        this.bone.field_78804_l.add(new ModelBox(this.bone, 0, 48, -0.9f, -35.0f, -26.0f, 1, 1, 1, 0.0f, false));
+        this.bone.field_78804_l.add(new ModelBox(this.bone, 46, 46, -3.1f, -35.0f, -26.0f, 1, 1, 1, 0.0f, false));
+        this.bone.field_78804_l.add(new ModelBox(this.bone, 125, 84, -4.0f, -39.8f, -49.0f, 5, 3, 24, 0.0f, false));
+        this.bone.field_78804_l.add(new ModelBox(this.bone, 46, 46, -4.0f, -39.8f, -67.0f, 1, 1, 18, 0.0f, false));
+        this.bone.field_78804_l.add(new ModelBox(this.bone, 0, 46, 0.0f, -39.8f, -67.0f, 1, 1, 18, 0.0f, false));
+        this.handguard1 = new ModelRenderer((ModelBase)this);
+        this.handguard1.func_78793_a(0.3f, -39.4f, -49.0f);
+        this.bone.func_78792_a(this.handguard1);
+        this.bone4 = new ModelRenderer((ModelBase)this);
+        this.bone4.func_78793_a(0.0f, 0.0f, 0.0f);
+        this.handguard1.func_78792_a(this.bone4);
+        this.bone4.field_78804_l.add(new ModelBox(this.bone4, 8, 34, -4.61f, 1.0f, 20.0f, 1, 2, 1, 0.0f, false));
+        this.bone4.field_78804_l.add(new ModelBox(this.bone4, 33, 28, -4.61f, 1.0f, 15.0f, 1, 2, 1, 0.0f, false));
+        this.bone4.field_78804_l.add(new ModelBox(this.bone4, 23, 5, -4.61f, 1.0f, 23.0f, 1, 2, 3, 0.0f, false));
+        this.bone4.field_78804_l.add(new ModelBox(this.bone4, 15, 33, -4.61f, 1.0f, 10.0f, 1, 2, 1, 0.0f, false));
+        this.bone4.field_78804_l.add(new ModelBox(this.bone4, 4, 33, -4.61f, 1.0f, 8.5f, 1, 2, 1, 0.0f, false));
+        this.bone4.field_78804_l.add(new ModelBox(this.bone4, 40, 46, -4.611f, 0.5f, 5.5f, 1, 1, 1, 0.0f, false));
+        this.bone4.field_78804_l.add(new ModelBox(this.bone4, 32, 46, -4.611f, 0.5f, -6.5f, 1, 1, 1, 0.0f, false));
+        this.bone4.field_78804_l.add(new ModelBox(this.bone4, 28, 46, -4.611f, 0.5f, -10.5f, 1, 1, 1, 0.0f, false));
+        this.bone4.field_78804_l.add(new ModelBox(this.bone4, 36, 46, -4.611f, 0.5f, 9.5f, 1, 1, 1, 0.0f, false));
+        this.bone4.field_78804_l.add(new ModelBox(this.bone4, 0, 33, -4.61f, 1.0f, 6.0f, 1, 2, 1, 0.0f, false));
+        this.bone4.field_78804_l.add(new ModelBox(this.bone4, 32, 23, -4.61f, 1.0f, 4.5f, 1, 2, 1, 0.0f, false));
+        this.bone4.field_78804_l.add(new ModelBox(this.bone4, 32, 20, -4.61f, 1.0f, -0.5f, 1, 2, 1, 0.0f, false));
+        this.bone4.field_78804_l.add(new ModelBox(this.bone4, 32, 32, -4.61f, 1.0f, -5.5f, 1, 2, 1, 0.0f, false));
+        this.bone4.field_78804_l.add(new ModelBox(this.bone4, 25, 32, -4.61f, 1.0f, -7.0f, 1, 2, 1, 0.0f, false));
+        this.bone4.field_78804_l.add(new ModelBox(this.bone4, 21, 32, -4.61f, 1.0f, -9.5f, 1, 2, 1, 0.0f, false));
+        this.bone4.field_78804_l.add(new ModelBox(this.bone4, 11, 32, -4.61f, 1.0f, -11.0f, 1, 2, 1, 0.0f, false));
+        this.bone4.field_78804_l.add(new ModelBox(this.bone4, 23, 0, -4.61f, 1.0f, -18.0f, 1, 2, 3, 0.0f, false));
+        this.bone6 = new ModelRenderer((ModelBase)this);
+        this.bone6.func_78793_a(4.6f, 0.0f, 0.0f);
+        this.handguard1.func_78792_a(this.bone6);
+        this.bone6.field_78804_l.add(new ModelBox(this.bone6, 31, 16, -4.61f, 1.0f, 20.0f, 1, 2, 1, 0.0f, false));
+        this.bone6.field_78804_l.add(new ModelBox(this.bone6, 31, 13, -4.61f, 1.0f, 15.0f, 1, 2, 1, 0.0f, false));
+        this.bone6.field_78804_l.add(new ModelBox(this.bone6, 9, 20, -4.61f, 1.0f, 23.0f, 1, 2, 3, 0.0f, false));
+        this.bone6.field_78804_l.add(new ModelBox(this.bone6, 31, 10, -4.61f, 1.0f, 10.0f, 1, 2, 1, 0.0f, false));
+        this.bone6.field_78804_l.add(new ModelBox(this.bone6, 31, 7, -4.61f, 1.0f, 8.5f, 1, 2, 1, 0.0f, false));
+        this.bone6.field_78804_l.add(new ModelBox(this.bone6, 16, 40, -4.611f, 0.5f, 5.5f, 1, 1, 1, 0.0f, false));
+        this.bone6.field_78804_l.add(new ModelBox(this.bone6, 12, 40, -4.611f, 0.5f, -6.5f, 1, 1, 1, 0.0f, false));
+        this.bone6.field_78804_l.add(new ModelBox(this.bone6, 8, 40, -4.611f, 0.5f, -10.5f, 1, 1, 1, 0.0f, false));
+        this.bone6.field_78804_l.add(new ModelBox(this.bone6, 4, 40, -4.611f, 0.5f, 9.5f, 1, 1, 1, 0.0f, false));
+        this.bone6.field_78804_l.add(new ModelBox(this.bone6, 31, 2, -4.61f, 1.0f, 6.0f, 1, 2, 1, 0.0f, false));
+        this.bone6.field_78804_l.add(new ModelBox(this.bone6, 8, 30, -4.61f, 1.0f, 4.5f, 1, 2, 1, 0.0f, false));
+        this.bone6.field_78804_l.add(new ModelBox(this.bone6, 4, 30, -4.61f, 1.0f, -0.5f, 1, 2, 1, 0.0f, false));
+        this.bone6.field_78804_l.add(new ModelBox(this.bone6, 0, 30, -4.61f, 1.0f, -5.5f, 1, 2, 1, 0.0f, false));
+        this.bone6.field_78804_l.add(new ModelBox(this.bone6, 28, 5, -4.61f, 1.0f, -7.0f, 1, 2, 1, 0.0f, false));
+        this.bone6.field_78804_l.add(new ModelBox(this.bone6, 28, 0, -4.61f, 1.0f, -9.5f, 1, 2, 1, 0.0f, false));
+        this.bone6.field_78804_l.add(new ModelBox(this.bone6, 14, 20, -4.61f, 1.0f, -11.0f, 1, 2, 1, 0.0f, false));
+        this.bone6.field_78804_l.add(new ModelBox(this.bone6, 10, 10, -4.61f, 1.0f, -18.0f, 1, 2, 3, 0.0f, false));
+        this.bone5 = new ModelRenderer((ModelBase)this);
+        this.bone5.func_78793_a(-3.6f, 3.2f, 21.0f);
+        this.handguard1.func_78792_a(this.bone5);
+        this.setRotationAngle(this.bone5, 0.7854f, 0.0f, 0.0f);
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 24, 46, -1.011f, -0.9293f, -0.0707f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 20, 46, -1.011f, 0.4849f, 1.3435f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 12, 46, -1.011f, -0.8586f, 2.687f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 8, 46, -1.011f, -2.2728f, 1.2728f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 4, 46, -1.011f, -2.9799f, 0.5657f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 0, 46, -1.011f, -5.8083f, -2.2627f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 39, 43, -1.011f, -4.3941f, -3.677f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 36, 42, -1.011f, -1.5657f, -0.8485f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 32, 42, -1.011f, -5.1012f, -4.3841f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 28, 42, -1.011f, -7.9296f, -7.2125f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 24, 42, -1.011f, -9.3439f, -5.7983f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 20, 42, -1.011f, -6.5154f, -2.9698f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 16, 42, -1.011f, -11.1116f, -7.566f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 12, 42, -1.011f, -12.1723f, -8.6267f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 8, 42, -1.011f, -13.9401f, -10.3945f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 4, 42, -1.011f, -16.7685f, -13.2229f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 0, 42, -1.011f, -17.4756f, -13.93f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 41, 19, -1.011f, -20.304f, -16.7584f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 41, 13, -1.011f, -22.0718f, -18.5262f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 41, 10, -1.011f, -23.1324f, -19.5869f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 41, 7, -1.011f, -24.9002f, -21.3546f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 41, 5, -1.011f, -27.7286f, -24.1831f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 41, 3, -1.011f, -26.3144f, -25.5973f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 41, 1, -1.011f, -23.486f, -22.7688f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 39, 41, -1.011f, -21.7182f, -21.0011f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 40, 30, -1.011f, -20.6576f, -19.9404f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 40, 27, -1.011f, -18.8898f, -18.1726f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 36, 40, -1.011f, -16.0614f, -15.3442f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 32, 40, -1.011f, -15.3543f, -14.6371f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 28, 40, -1.011f, -12.5258f, -11.8087f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 24, 40, -1.011f, -10.7581f, -10.0409f, 1, 1, 1, 0.0f, false));
+        this.bone5.field_78804_l.add(new ModelBox(this.bone5, 20, 40, -1.011f, -9.6974f, -8.9803f, 1, 1, 1, 0.0f, false));
+        this.bone7 = new ModelRenderer((ModelBase)this);
+        this.bone7.func_78793_a(1.0f, 3.2f, 21.0f);
+        this.handguard1.func_78792_a(this.bone7);
+        this.setRotationAngle(this.bone7, 0.7854f, 0.0f, 0.0f);
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 0, 40, -1.011f, -0.9293f, -0.0707f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 39, 37, -1.011f, 0.4849f, 1.3435f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 39, 34, -1.011f, -0.8586f, 2.687f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 39, 25, -1.011f, -2.2728f, 1.2728f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 39, 23, -1.011f, -2.9799f, 0.5657f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 39, 21, -1.011f, -5.8083f, -2.2627f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 39, 17, -1.011f, -4.3941f, -3.677f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 39, 39, -1.011f, -1.5657f, -0.8485f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 38, 32, -1.011f, -5.1012f, -4.3841f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 38, 15, -1.011f, -7.9296f, -7.2125f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 38, 12, -1.011f, -9.3439f, -5.7983f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 38, 9, -1.011f, -6.5154f, -2.9698f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 38, 6, -1.011f, -11.1116f, -7.566f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 38, 4, -1.011f, -12.1723f, -8.6267f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 38, 0, -1.011f, -13.9401f, -10.3945f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 37, 29, -1.011f, -16.7685f, -13.2229f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 37, 2, -1.011f, -17.4756f, -13.93f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 28, 37, -1.011f, -20.304f, -16.7584f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 15, 37, -1.011f, -22.0718f, -18.5262f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 7, 37, -1.011f, -23.1324f, -19.5869f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 36, 27, -1.011f, -24.9002f, -21.3546f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 36, 24, -1.011f, -27.7286f, -24.1831f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 36, 20, -1.011f, -26.3144f, -25.5973f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 36, 36, -1.011f, -23.486f, -22.7688f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 25, 36, -1.011f, -21.7182f, -21.0011f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 4, 36, -1.011f, -20.6576f, -19.9404f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 35, 34, -1.011f, -18.8898f, -18.1726f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 35, 31, -1.011f, -16.0614f, -15.3442f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 35, 22, -1.011f, -15.3543f, -14.6371f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 13, 25, -1.011f, -12.5258f, -11.8087f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 9, 25, -1.011f, -10.7581f, -10.0409f, 1, 1, 1, 0.0f, false));
+        this.bone7.field_78804_l.add(new ModelBox(this.bone7, 15, 16, -1.011f, -9.6974f, -8.9803f, 1, 1, 1, 0.0f, false));
+        this.handguard17 = new ModelRenderer((ModelBase)this);
+        this.handguard17.func_78793_a(-0.3f, -35.0f, -49.0f);
+        this.bone.func_78792_a(this.handguard17);
+        this.setRotationAngle(this.handguard17, 0.0f, 0.0f, -2.3423f);
+        this.handguard17.field_78804_l.add(new ModelBox(this.handguard17, 0, 20, 0.0f, -1.0f, 19.0f, 1, 3, 7, 0.0f, false));
+        this.handguard17.field_78804_l.add(new ModelBox(this.handguard17, 95, 0, 0.0f, 1.2f, -18.0f, 1, 1, 37, 0.0f, false));
+        this.handguard17.field_78804_l.add(new ModelBox(this.handguard17, 92, 45, 0.0f, -0.9f, -19.0f, 1, 1, 38, 0.0f, false));
+        this.bone2 = new ModelRenderer((ModelBase)this);
+        this.bone2.func_78793_a(1.0f, 2.0f, 19.1f);
+        this.handguard17.func_78792_a(this.bone2);
+        this.setRotationAngle(this.bone2, 0.5934f, 0.0f, 0.0f);
+        this.bone2.field_78804_l.add(new ModelBox(this.bone2, 29, 29, -1.0f, -2.9f, 0.0f, 1, 3, 1, 0.0f, false));
+        this.bone2.field_78804_l.add(new ModelBox(this.bone2, 15, 29, -1.0f, -5.2f, -3.3162f, 1, 3, 1, 0.0f, false));
+        this.bone2.field_78804_l.add(new ModelBox(this.bone2, 25, 28, -1.0f, -7.4f, -6.6323f, 1, 3, 1, 0.0f, false));
+        this.bone2.field_78804_l.add(new ModelBox(this.bone2, 21, 28, -1.0f, -9.6f, -9.9485f, 1, 3, 1, 0.0f, false));
+        this.bone2.field_78804_l.add(new ModelBox(this.bone2, 3, 23, -1.0f, -11.9f, -13.2646f, 1, 3, 1, 0.0f, false));
+        this.bone2.field_78804_l.add(new ModelBox(this.bone2, 21, 21, -1.0f, -14.13f, -16.5808f, 1, 3, 1, 0.0f, false));
+        this.bone2.field_78804_l.add(new ModelBox(this.bone2, 0, 20, -1.0f, -16.3f, -19.8969f, 1, 3, 1, 0.0f, false));
+        this.bone2.field_78804_l.add(new ModelBox(this.bone2, 15, 9, -1.0f, -18.6f, -23.2131f, 1, 3, 1, 0.0f, false));
+        this.bone2.field_78804_l.add(new ModelBox(this.bone2, 0, 12, -1.0f, -20.8f, -26.5292f, 1, 3, 1, 0.0f, false));
+        this.bone2.field_78804_l.add(new ModelBox(this.bone2, 0, 36, -1.0f, -22.8618f, -30.5086f, 1, 2, 1, 0.0f, false));
+        this.handguard20 = new ModelRenderer((ModelBase)this);
+        this.handguard20.func_78793_a(-2.7f, -35.0f, -30.0f);
+        this.bone.func_78792_a(this.handguard20);
+        this.setRotationAngle(this.handguard20, 0.0f, 0.0f, 2.3422f);
+        this.handguard20.field_78804_l.add(new ModelBox(this.handguard20, 0, 0, -1.0f, -1.0f, 0.0f, 1, 3, 7, 0.0f, false));
+        this.handguard20.field_78804_l.add(new ModelBox(this.handguard20, 46, 92, -1.0f, -0.9f, -38.0f, 1, 1, 38, 0.0f, false));
+        this.handguard20.field_78804_l.add(new ModelBox(this.handguard20, 86, 92, -1.0f, 1.1f, -37.0f, 1, 1, 37, 0.0f, false));
+        this.bone3 = new ModelRenderer((ModelBase)this);
+        this.bone3.func_78793_a(0.0f, 0.0f, -1.0f);
+        this.handguard20.func_78792_a(this.bone3);
+        this.setRotationAngle(this.bone3, 0.5934f, 0.0f, 0.0f);
+        this.bone3.field_78804_l.add(new ModelBox(this.bone3, 35, 16, -1.0f, -0.1118f, -0.1658f, 1, 2, 1, 0.0f, false));
+        this.bone3.field_78804_l.add(new ModelBox(this.bone3, 35, 13, -1.0f, -2.3486f, -3.482f, 1, 2, 1, 0.0f, false));
+        this.bone3.field_78804_l.add(new ModelBox(this.bone3, 35, 10, -1.0f, -4.5854f, -6.7981f, 1, 2, 1, 0.0f, false));
+        this.bone3.field_78804_l.add(new ModelBox(this.bone3, 35, 7, -1.0f, -6.8222f, -10.1143f, 1, 2, 1, 0.0f, false));
+        this.bone3.field_78804_l.add(new ModelBox(this.bone3, 32, 35, -1.0f, -9.0589f, -13.4304f, 1, 2, 1, 0.0f, false));
+        this.bone3.field_78804_l.add(new ModelBox(this.bone3, 21, 35, -1.0f, -11.2957f, -16.7466f, 1, 2, 1, 0.0f, false));
+        this.bone3.field_78804_l.add(new ModelBox(this.bone3, 12, 35, -1.0f, -13.5325f, -20.0627f, 1, 2, 1, 0.0f, false));
+        this.bone3.field_78804_l.add(new ModelBox(this.bone3, 34, 4, -1.0f, -15.7692f, -23.3789f, 1, 2, 1, 0.0f, false));
+        this.bone3.field_78804_l.add(new ModelBox(this.bone3, 34, 0, -1.0f, -18.006f, -26.695f, 1, 2, 1, 0.0f, false));
+        this.bone3.field_78804_l.add(new ModelBox(this.bone3, 28, 34, -1.0f, -20.6901f, -30.6744f, 1, 2, 1, 0.0f, false));
+        this.ACR110 = new ModelRenderer((ModelBase)this);
+        this.ACR110.func_78793_a(-4.0f, -39.8f, -49.0f);
+        this.bone.func_78792_a(this.ACR110);
+        this.setRotationAngle(this.ACR110, 0.0f, 0.0f, -0.9295f);
+        this.ACR110.field_78804_l.add(new ModelBox(this.ACR110, 23, 16, 0.0f, 0.0f, -1.0f, 3, 1, 1, 0.0f, false));
+        this.ACR110.field_78804_l.add(new ModelBox(this.ACR110, 46, 65, 0.0f, 0.0f, -18.0f, 1, 1, 17, 0.0f, false));
+        this.ACR110.field_78804_l.add(new ModelBox(this.ACR110, 0, 65, 1.8f, 0.0f, -18.0f, 1, 1, 17, 0.0f, false));
+        this.bone8 = new ModelRenderer((ModelBase)this);
+        this.bone8.func_78793_a(0.0f, 0.0f, 0.0f);
+        this.ACR110.func_78792_a(this.bone8);
+        this.setRotationAngle(this.bone8, 0.0f, 0.3142f, 0.0f);
+        this.bone8.field_78804_l.add(new ModelBox(this.bone8, 23, 14, 0.3f, 0.0f, -1.0f, 3, 1, 1, 0.0f, false));
+        this.bone8.field_78804_l.add(new ModelBox(this.bone8, 23, 12, 1.5361f, 0.0f, -4.8042f, 3, 1, 1, 0.0f, false));
+        this.bone8.field_78804_l.add(new ModelBox(this.bone8, 23, 10, 2.7721f, 0.0f, -8.6085f, 3, 1, 1, 0.0f, false));
+        this.bone8.field_78804_l.add(new ModelBox(this.bone8, 8, 17, 4.0082f, 0.0f, -12.4127f, 3, 1, 1, 0.0f, false));
+        this.bone8.field_78804_l.add(new ModelBox(this.bone8, 9, 3, 5.5533f, 0.0f, -17.168f, 3, 1, 2, 0.0f, false));
+        this.ACR2 = new ModelRenderer((ModelBase)this);
+        this.ACR2.func_78793_a(1.0f, -39.8f, -49.0f);
+        this.bone.func_78792_a(this.ACR2);
+        this.setRotationAngle(this.ACR2, 0.0f, 0.0f, 0.9295f);
+        this.ACR2.field_78804_l.add(new ModelBox(this.ACR2, 0, 17, -3.0f, 0.0f, -1.0f, 3, 1, 1, 0.0f, false));
+        this.ACR2.field_78804_l.add(new ModelBox(this.ACR2, 49, 18, -3.0f, 0.0f, -18.0f, 1, 1, 17, 0.0f, false));
+        this.ACR2.field_78804_l.add(new ModelBox(this.ACR2, 49, 0, -1.0f, 0.0f, -18.0f, 1, 1, 17, 0.0f, false));
+        this.bone9 = new ModelRenderer((ModelBase)this);
+        this.bone9.func_78793_a(0.0f, 0.0f, 0.0f);
+        this.ACR2.func_78792_a(this.bone9);
+        this.setRotationAngle(this.bone9, 0.0f, -0.3142f, 0.0f);
+        this.bone9.field_78804_l.add(new ModelBox(this.bone9, 0, 10, -2.7f, 0.0f, -1.0f, 2, 1, 1, 0.0f, false));
+        this.bone9.field_78804_l.add(new ModelBox(this.bone9, 0, 4, -3.9361f, 0.0f, -4.8042f, 2, 1, 1, 0.0f, false));
+        this.bone9.field_78804_l.add(new ModelBox(this.bone9, 0, 2, -5.1721f, 0.0f, -8.6085f, 2, 1, 1, 0.0f, false));
+        this.bone9.field_78804_l.add(new ModelBox(this.bone9, 0, 0, -6.4082f, 0.0f, -12.4127f, 2, 1, 1, 0.0f, false));
+        this.bone9.field_78804_l.add(new ModelBox(this.bone9, 9, 0, -8.5f, 0.0f, -17.168f, 3, 1, 2, 0.0f, false));
+    }
+
+    public void func_78088_a(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
+        this.bone.func_78785_a(f5);
+    }
+
+    public void setRotationAngle(ModelRenderer modelRenderer, float x, float y, float z) {
+        modelRenderer.field_78795_f = x;
+        modelRenderer.field_78796_g = y;
+        modelRenderer.field_78808_h = z;
+    }
+}
+
